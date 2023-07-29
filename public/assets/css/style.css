@@ -142,6 +142,19 @@ p {
   padding-bottom: 35%;
   text-align: center;
 }
+
+.cars .row .col{
+  width: 50%;
+}
+
+.cars .gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery img{
+  width: 250px;
+  margin: 10px;
+}
 @media only screen and (max-width: 850px) {
   .menu-btn {
     display: block;
